@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/green_400"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/muslim"/>
+
+
+    <Button
+        android:id="@+id/btn_jadwal_sholat"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Jadwal Sholat"
+        android:fontFamily="@font/nextartbold"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_rounded"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btn_produk_halal"
+        android:textAllCaps="false"
+        android:text="Produk Halal"
+        android:fontFamily="@font/nextartbold"
+        android:textSize="15dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_rounded"
+        android:layout_width="300dp"
+        android:layout_height="70dp" />
+    <Button
+        android:id="@+id/btn_doa_harian"
+        android:textAllCaps="false"
+        android:text="Dzikir Harian"
+        android:fontFamily="@font/nextartbold"
+        android:textSize="15dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_rounded"
+        android:layout_width="300dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:text="Slamet Mujiono"
+        android:paddingTop="16dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:fontFamily="@font/nextartbold"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Universitas Pelita Bangsa - Bekasi"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:fontFamily="@font/nextartbold"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="&#169;2019"
+        android:textSize="17dp"
+        android:fontFamily="@font/nextartbold"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
